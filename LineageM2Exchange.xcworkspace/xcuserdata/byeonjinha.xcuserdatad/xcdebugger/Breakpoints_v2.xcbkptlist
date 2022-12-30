@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E46501B8-B6E4-4698-84E9-0482752984C9"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7D5FAE6-0E96-47F5-8708-62747C8B3D5F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LineageM2Exchange/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "MainView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "A7D5FAE6-0E96-47F5-8708-62747C8B3D5F - b21c804204b1cca4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineageM2Exchange.MainView.saveData.getter : SwiftUI.FetchedResults&lt;LineageM2Exchange.ServersEntity&gt;"
+                  moduleName = "LineageM2Exchange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/byeonjinha/Desktop/LineageM2Exchange/LineageM2Exchange/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "A7D5FAE6-0E96-47F5-8708-62747C8B3D5F - df5c680221447c67"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineageM2Exchange.MainView.$saveData.getter : SwiftUI.Binding&lt;SwiftUI.FetchRequest&lt;LineageM2Exchange.ServersEntity&gt;.Configuration&gt;"
+                  moduleName = "LineageM2Exchange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/byeonjinha/Desktop/LineageM2Exchange/LineageM2Exchange/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "A7D5FAE6-0E96-47F5-8708-62747C8B3D5F - bf1ea94d78440ee0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineageM2Exchange.MainView.init() -&gt; LineageM2Exchange.MainView"
+                  moduleName = "LineageM2Exchange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/byeonjinha/Desktop/LineageM2Exchange/LineageM2Exchange/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11C11D7F-FF0B-40D3-989C-D955964C4B8C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LineageM2Exchange/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "MainView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "11C11D7F-FF0B-40D3-989C-D955964C4B8C - 3e4464e2d3c5026f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of LineageM2Exchange.MainView.searchWorldItemValueStaticsByCondition : LineageM2Exchange.SearchWorldItemValueStatisticsAPI"
+                  moduleName = "LineageM2Exchange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/byeonjinha/Desktop/LineageM2Exchange/LineageM2Exchange/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "11C11D7F-FF0B-40D3-989C-D955964C4B8C - bf1ea94d78440d7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineageM2Exchange.MainView.init() -&gt; LineageM2Exchange.MainView"
+                  moduleName = "LineageM2Exchange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/byeonjinha/Desktop/LineageM2Exchange/LineageM2Exchange/MainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "480">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D83DC5EF-894C-4ED4-BD93-7D62CC1B2CEE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LineageM2Exchange/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F53E43EB-A17D-4C04-B706-DC21A903FAC1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LineageM2Exchange/MainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

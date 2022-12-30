@@ -1,0 +1,6 @@
+framework module Pods_LineageM2Exchange {
+  umbrella header "Pods-LineageM2Exchange-umbrella.h"
+
+  export *
+  module * { export * }
+}
