@@ -14,7 +14,7 @@ struct SearchItemView: View {
     var body: some View {
         if !searchItemByCondition.posts.isEmpty {
             VStack {
-                ForEach(0..<searchItemByCondition.posts[0].contents.count , id: \.self) { idx in
+                ForEach(searchItemByCondition.posts[0].contents.indices , id: \.self) { idx in
                     let image = searchItemByCondition.posts[0].contents[idx].image
                     let isWord = searchItemByCondition.posts[0].contents[idx].world ? "[월드]" : "[서버]"
                     let itemName = searchItemByCondition.posts[0].contents[idx].itemName

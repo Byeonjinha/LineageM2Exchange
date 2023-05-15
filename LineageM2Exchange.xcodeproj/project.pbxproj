@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		8A356865613195608D78180D /* Pods_LineageM2Exchange_LineageM2ExchangeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D194DFE62C4BBB94DC28D911 /* Pods_LineageM2Exchange_LineageM2ExchangeUITests.framework */; };
+		BA177C6F2979907600988613 /* MainItemSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA177C6E2979907600988613 /* MainItemSearchView.swift */; };
+		BA177C752979B24800988613 /* WebViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA177C732979B24800988613 /* WebViewViewModel.swift */; };
+		BA177C762979B24800988613 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA177C742979B24800988613 /* WebView.swift */; };
+		BA177C792979C89500988613 /* MainBookMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA177C782979C89500988613 /* MainBookMarkView.swift */; };
+		BA177C7B2979DEB500988613 /* SearchItemAPI(withEnchantLevel).swift in Sources */ = {isa = PBXBuildFile; fileRef = BA177C7A2979DEB500988613 /* SearchItemAPI(withEnchantLevel).swift */; };
+		BA177C7D2979E47D00988613 /* BookmarkCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA177C7C2979E47D00988613 /* BookmarkCellView.swift */; };
 		BA379D5A295ED27900FC1F28 /* LineageM2ExchangeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA379D59295ED27900FC1F28 /* LineageM2ExchangeApp.swift */; };
 		BA379D5C295ED27900FC1F28 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA379D5B295ED27900FC1F28 /* MainView.swift */; };
 		BA379D5E295ED27A00FC1F28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA379D5D295ED27A00FC1F28 /* Assets.xcassets */; };
@@ -33,6 +39,7 @@
 		BA379DA6295ED56E00FC1F28 /* AdmobBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA379DA5295ED56E00FC1F28 /* AdmobBanner.swift */; };
 		BA379DAD295F1A1700FC1F28 /* NetWorkCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA379DAC295F1A1700FC1F28 /* NetWorkCheck.swift */; };
 		BA379DAF295F1BE700FC1F28 /* DisconnectedNetWorkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA379DAE295F1BE700FC1F28 /* DisconnectedNetWorkView.swift */; };
+		BA7944A229700F1600D8B8CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7944A129700F1600D8B8CA /* AppDelegate.swift */; };
 		BB5A0C0199AFDD2701271C24 /* Pods_LineageM2ExchangeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6076921EF2EAB17426378756 /* Pods_LineageM2ExchangeTests.framework */; };
 		CA9B5E2A50563DAD0A54EA90 /* Pods_LineageM2Exchange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16697684FFE50CDD86935A3B /* Pods_LineageM2Exchange.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +68,13 @@
 		6076921EF2EAB17426378756 /* Pods_LineageM2ExchangeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LineageM2ExchangeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		668B45C4F792B61C6111D879 /* Pods-LineageM2ExchangeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LineageM2ExchangeTests.debug.xcconfig"; path = "Target Support Files/Pods-LineageM2ExchangeTests/Pods-LineageM2ExchangeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ADB222CEFA57D6143F82E0C8 /* Pods-LineageM2Exchange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LineageM2Exchange.debug.xcconfig"; path = "Target Support Files/Pods-LineageM2Exchange/Pods-LineageM2Exchange.debug.xcconfig"; sourceTree = "<group>"; };
+		BA177C6E2979907600988613 /* MainItemSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainItemSearchView.swift; sourceTree = "<group>"; };
+		BA177C732979B24800988613 /* WebViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewViewModel.swift; path = ../../../LostArkExchange/LostArkExchange/WebView/WebViewViewModel.swift; sourceTree = "<group>"; };
+		BA177C742979B24800988613 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = ../../../LostArkExchange/LostArkExchange/WebView/WebView.swift; sourceTree = "<group>"; };
+		BA177C782979C89500988613 /* MainBookMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBookMarkView.swift; sourceTree = "<group>"; };
+		BA177C7A2979DEB500988613 /* SearchItemAPI(withEnchantLevel).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchItemAPI(withEnchantLevel).swift"; sourceTree = "<group>"; };
+		BA177C7C2979E47D00988613 /* BookmarkCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkCellView.swift; sourceTree = "<group>"; };
+		BA1DE74C2A11AA3900D823F4 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		BA379D56295ED27900FC1F28 /* LineageM2Exchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineageM2Exchange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA379D59295ED27900FC1F28 /* LineageM2ExchangeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineageM2ExchangeApp.swift; sourceTree = "<group>"; };
 		BA379D5B295ED27900FC1F28 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -90,6 +104,7 @@
 		BA379DA7295ED5A800FC1F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BA379DAC295F1A1700FC1F28 /* NetWorkCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkCheck.swift; sourceTree = "<group>"; };
 		BA379DAE295F1BE700FC1F28 /* DisconnectedNetWorkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisconnectedNetWorkView.swift; sourceTree = "<group>"; };
+		BA7944A129700F1600D8B8CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D194DFE62C4BBB94DC28D911 /* Pods_LineageM2Exchange_LineageM2ExchangeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LineageM2Exchange_LineageM2ExchangeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54637F0CB4D9640B5F4237B /* Pods-LineageM2Exchange-LineageM2ExchangeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LineageM2Exchange-LineageM2ExchangeUITests.debug.xcconfig"; path = "Target Support Files/Pods-LineageM2Exchange-LineageM2ExchangeUITests/Pods-LineageM2Exchange-LineageM2ExchangeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FBD0946545701B5B93573C03 /* Pods-LineageM2ExchangeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LineageM2ExchangeTests.release.xcconfig"; path = "Target Support Files/Pods-LineageM2ExchangeTests/Pods-LineageM2ExchangeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,9 +148,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BA177C6A2979902100988613 /* MainItemSearchView */ = {
+			isa = PBXGroup;
+			children = (
+				BA379D9D295ED49900FC1F28 /* SearchView.swift */,
+				BA177C6E2979907600988613 /* MainItemSearchView.swift */,
+				BA379D9C295ED49900FC1F28 /* SearchItemView.swift */,
+				BA379D99295ED49900FC1F28 /* ItemView.swift */,
+			);
+			name = MainItemSearchView;
+			sourceTree = "<group>";
+		};
+		BA177C702979B20500988613 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				BA177C742979B24800988613 /* WebView.swift */,
+				BA177C732979B24800988613 /* WebViewViewModel.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		BA177C772979C87D00988613 /* BookMarkView */ = {
+			isa = PBXGroup;
+			children = (
+				BA177C782979C89500988613 /* MainBookMarkView.swift */,
+				BA177C7C2979E47D00988613 /* BookmarkCellView.swift */,
+			);
+			path = BookMarkView;
+			sourceTree = "<group>";
+		};
 		BA379D4D295ED27900FC1F28 = {
 			isa = PBXGroup;
 			children = (
+				BA1DE74C2A11AA3900D823F4 /* Config.xcconfig */,
 				BA379D58295ED27900FC1F28 /* LineageM2Exchange */,
 				BA379D6E295ED27A00FC1F28 /* LineageM2ExchangeTests */,
 				BA379D78295ED27A00FC1F28 /* LineageM2ExchangeUITests */,
@@ -158,20 +203,21 @@
 		BA379D58295ED27900FC1F28 /* LineageM2Exchange */ = {
 			isa = PBXGroup;
 			children = (
+				BA177C772979C87D00988613 /* BookMarkView */,
+				BA177C702979B20500988613 /* MapView */,
 				BA379DAB295ED75600FC1F28 /* CoreDataModel */,
 				BA379DA7295ED5A800FC1F28 /* Info.plist */,
 				BA379D59295ED27900FC1F28 /* LineageM2ExchangeApp.swift */,
 				BA379D88295ED47400FC1F28 /* AppData.swift */,
+				BA7944A129700F1600D8B8CA /* AppDelegate.swift */,
 				BA379DA4295ED56E00FC1F28 /* AdMob */,
 				BA379D8D295ED48A00FC1F28 /* API */,
 				BA379D8A295ED47F00FC1F28 /* Extension */,
 				BA379D5B295ED27900FC1F28 /* MainView.swift */,
-				BA379D99295ED49900FC1F28 /* ItemView.swift */,
-				BA379D9C295ED49900FC1F28 /* SearchItemView.swift */,
+				BA177C6A2979902100988613 /* MainItemSearchView */,
 				BA379DAE295F1BE700FC1F28 /* DisconnectedNetWorkView.swift */,
 				BA379D9A295ED49900FC1F28 /* SearchTextBoxView.swift */,
 				BA379DAC295F1A1700FC1F28 /* NetWorkCheck.swift */,
-				BA379D9D295ED49900FC1F28 /* SearchView.swift */,
 				BA379D9B295ED49900FC1F28 /* ServerItemStaticsView.swift */,
 				BA379D98295ED49900FC1F28 /* WorldItemStaticsView.swift */,
 				BA379D5D295ED27A00FC1F28 /* Assets.xcassets */,
@@ -221,6 +267,7 @@
 				BA379D8E295ED48A00FC1F28 /* SearchItemInfoAPI.swift */,
 				BA379D8F295ED48A00FC1F28 /* SearchServerAPI.swift */,
 				BA379D90295ED48A00FC1F28 /* SearchItemAPI.swift */,
+				BA177C7A2979DEB500988613 /* SearchItemAPI(withEnchantLevel).swift */,
 				BA379D91295ED48A00FC1F28 /* SearchServerItemValueStatisticsAPI.swift */,
 				BA379D92295ED48A00FC1F28 /* SearchWorldItemValueStatisticsAPI.swift */,
 			);
@@ -496,21 +543,28 @@
 				BA379DAF295F1BE700FC1F28 /* DisconnectedNetWorkView.swift in Sources */,
 				BA379D63295ED27A00FC1F28 /* Persistence.swift in Sources */,
 				BA379D96295ED48A00FC1F28 /* SearchServerItemValueStatisticsAPI.swift in Sources */,
+				BA177C6F2979907600988613 /* MainItemSearchView.swift in Sources */,
+				BA177C7B2979DEB500988613 /* SearchItemAPI(withEnchantLevel).swift in Sources */,
 				BA379D66295ED27A00FC1F28 /* LineageM2Exchange.xcdatamodeld in Sources */,
 				BA379DA0295ED49900FC1F28 /* SearchTextBoxView.swift in Sources */,
 				BA379D5C295ED27900FC1F28 /* MainView.swift in Sources */,
 				BA379D8C295ED47F00FC1F28 /* ColorExtension.swift in Sources */,
 				BA379DA3295ED49900FC1F28 /* SearchView.swift in Sources */,
+				BA177C762979B24800988613 /* WebView.swift in Sources */,
 				BA379D95295ED48A00FC1F28 /* SearchItemAPI.swift in Sources */,
 				BA379D9E295ED49900FC1F28 /* WorldItemStaticsView.swift in Sources */,
 				BA379D97295ED48A00FC1F28 /* SearchWorldItemValueStatisticsAPI.swift in Sources */,
+				BA177C752979B24800988613 /* WebViewViewModel.swift in Sources */,
 				BA379DA1295ED49900FC1F28 /* ServerItemStaticsView.swift in Sources */,
 				BA379DAD295F1A1700FC1F28 /* NetWorkCheck.swift in Sources */,
+				BA177C7D2979E47D00988613 /* BookmarkCellView.swift in Sources */,
+				BA177C792979C89500988613 /* MainBookMarkView.swift in Sources */,
 				BA379D5A295ED27900FC1F28 /* LineageM2ExchangeApp.swift in Sources */,
 				BA379D9F295ED49900FC1F28 /* ItemView.swift in Sources */,
 				BA379D89295ED47400FC1F28 /* AppData.swift in Sources */,
 				BA379D93295ED48A00FC1F28 /* SearchItemInfoAPI.swift in Sources */,
 				BA379DA6295ED56E00FC1F28 /* AdmobBanner.swift in Sources */,
+				BA7944A229700F1600D8B8CA /* AppDelegate.swift in Sources */,
 				BA379D94295ED48A00FC1F28 /* SearchServerAPI.swift in Sources */,
 				BA379DA2295ED49900FC1F28 /* SearchItemView.swift in Sources */,
 			);
@@ -551,6 +605,7 @@
 /* Begin XCBuildConfiguration section */
 		BA379D7D295ED27A00FC1F28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA1DE74C2A11AA3900D823F4 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -612,6 +667,7 @@
 		};
 		BA379D7E295ED27A00FC1F28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA1DE74C2A11AA3900D823F4 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -678,18 +734,24 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LineageM2Exchange/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "리니지2M 거래소 검색";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.badger.LineageM2Exchange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -709,18 +771,24 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LineageM2Exchange/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "리니지2M 거래소 검색";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.badger.LineageM2Exchange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

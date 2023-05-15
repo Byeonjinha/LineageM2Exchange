@@ -12,15 +12,17 @@ class SearchServerAPI: ObservableObject {
     static let shared = SearchServerAPI()
     @Published var serverNames: [(String,Int,Int)] = []
     @Published var worldIDs: [Int] = []
+    @Published var serverID: String?
+    
     @Published var posts = [Servers]() {
         didSet {
             if !posts.isEmpty {
                 let searchItem = SearchItemAPI.shared
-                searchItem.getMyIP(searchKeyword: "", serverID: "1")
+                searchItem.getMyIP(searchKeyword: "", serverID: serverID ?? "1")
             }
         }
     }
-    private let auth = "eyJraWQiOiI1ZWM3ZTIzNy01MzA2LTQ5YjQtOThhYi0zZWNhNGMyYTg1MDciLCJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1aWQiOiI5MDE3RkM1QS01QUFCLTRCODAtODMzNi1FOUMzQkVDQkFGNTMifQ.PRKI6EO8tFkdz1JsQli2jh0x0cR7GG4QM6dLqLBqO-PTITc44fV5aAIx5bSTwg6HH7MSP9GOZL_v-y_jm62sPSi4AaCq-C3k0cV_z3B5kaeexa67Ux7EVe65S1cWFPMMn3wEx_EN5RWqD1yga7B6kdPdH6dwCSGsQrq3xaQ0TYErnhcL9NjX0RXD46h0rDWUMm_cw-x1JssEDG74UI--J3Gp_AwwObO8rLSGB3AsJ1pj5mhve8I42DokpqHn-Uy43EV4dlH_B-OVhzzP6Afg1kmVJbAU4jI53GAqzMLbedAzbIkKffTx0Fhqq4g_TRPrMskVpvfyh5VfNXPGwSseYQ"
+    private let auth = Bundle.main.infoDictionary?["auth"] as! String
     func getMyIP() {
         let url = "https://dev-api.plaync.com/l2m/v1.0/market/servers"
         let header = ["Authorization" : "Bearer " + auth]

@@ -1,23 +1,31 @@
 //
-//  SearchServerItemValueStatisticsAPI.swift
-//  lineage2M
+//  SearchItemAPI(withEnchantLevel).swift
+//  LineageM2Exchange
 //
-//  Created by Byeon jinha on 2022/12/28.
+//  Created by Byeon jinha on 2023/01/20.
 //
 
 import Foundation
 
-class SearchServerItemValueStatisticsAPI: ObservableObject {
+class SearchItemWithEnchantAPI: ObservableObject {
+    @Published var posts = [String:SearchItem]()
+    static let shared = SearchItemWithEnchantAPI()
+    private init() {
+        
+    }
     
-    static let shared = SearchServerItemValueStatisticsAPI()
-    private init() {  }
-    @Published var posts = [SearchItemValueStatistics]()
     private let auth = Bundle.main.infoDictionary?["auth"] as! String
-    func getMyIP(itemID: String, worldID: String, serverID: String, enchantLevel: String) {
-        let url = "https://dev-api.plaync.com/l2m/v1.0/market/items/\(itemID)/price"
+    func getMyIP(searchKeyword: String, serverID: String, enchantLevel: String) {
+        let url = "https://dev-api.plaync.com/l2m/v1.0/market/items/search"
         let header = ["Authorization" : "Bearer " + auth]
-        let params = ["enchant_level" : enchantLevel,
-                      "server_id" : serverID]
+            
+        let params = ["search_keyword" : searchKeyword,
+                      "from_enchant_level" : enchantLevel,
+                      "to_enchant_level" : enchantLevel,
+                      "server_id" : serverID ,
+                      "sale" : "true",
+                      "page" : "1",
+                      "size" : "30"]
 
         var urlComponents = URLComponents(string: url)
 
@@ -47,9 +55,10 @@ class SearchServerItemValueStatisticsAPI: ObservableObject {
                 return
             }
             do{
-                let apiResponse = try JSONDecoder().decode(SearchItemValueStatistics.self, from: data)
+                let apiResponse = try JSONDecoder().decode(SearchItem.self, from: data)
                 DispatchQueue.main.async {
-                    self.posts.append(apiResponse)
+                    let key: String = searchKeyword + serverID + enchantLevel
+                    self.posts[key] = apiResponse
                 }
             } catch let DecodingError.dataCorrupted(context) {
                 print(context)
@@ -67,31 +76,5 @@ class SearchServerItemValueStatisticsAPI: ObservableObject {
             }
         }
         task.resume()
-    }
-}
-
-// MARK: - SearchItemValueStatistics
-struct SearchItemValueStatistics: Codable {
-    let itemID, enchantLevel: Int
-//    let now: Now?
-    let now, min, max, avg, last : Statics?
-
-    enum CodingKeys: String, CodingKey {
-        case itemID = "item_id"
-        case enchantLevel = "enchant_level"
-        case now, min, max, avg, last
-    }
-}
-
-// MARK: - Statics
-struct Statics: Codable {
-    let serverID: Int?
-    let serverName: String?
-    let unitPrice: Double?
-
-    enum CodingKeys: String, CodingKey {
-        case serverID = "server_id"
-        case serverName = "server_name"
-        case unitPrice = "unit_price"
     }
 }

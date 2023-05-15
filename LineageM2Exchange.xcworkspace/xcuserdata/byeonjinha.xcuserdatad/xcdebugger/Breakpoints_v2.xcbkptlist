@@ -14,13 +14,13 @@
             filePath = "LineageM2Exchange/MainView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
             landmarkName = "MainView"
             landmarkType = "14">
             <Locations>
                <Location
-                  uuid = "A7D5FAE6-0E96-47F5-8708-62747C8B3D5F - b21c804204b1cca4"
+                  uuid = "A7D5FAE6-0E96-47F5-8708-62747C8B3D5F - b21c804204b1cfdf"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -30,12 +30,12 @@
                   urlString = "file:///Users/byeonjinha/Desktop/LineageM2Exchange/LineageM2Exchange/MainView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
                   offsetFromSymbolStart = "212">
                </Location>
                <Location
-                  uuid = "A7D5FAE6-0E96-47F5-8708-62747C8B3D5F - df5c680221447c67"
+                  uuid = "A7D5FAE6-0E96-47F5-8708-62747C8B3D5F - df5c680221447f1c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -45,12 +45,12 @@
                   urlString = "file:///Users/byeonjinha/Desktop/LineageM2Exchange/LineageM2Exchange/MainView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
                   offsetFromSymbolStart = "212">
                </Location>
                <Location
-                  uuid = "A7D5FAE6-0E96-47F5-8708-62747C8B3D5F - bf1ea94d78440ee0"
+                  uuid = "A7D5FAE6-0E96-47F5-8708-62747C8B3D5F - bf1ea94d78440d9b"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -60,8 +60,8 @@
                   urlString = "file:///Users/byeonjinha/Desktop/LineageM2Exchange/LineageM2Exchange/MainView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
                   offsetFromSymbolStart = "144">
                </Location>
             </Locations>
@@ -77,13 +77,13 @@
             filePath = "LineageM2Exchange/MainView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "MainView"
             landmarkType = "14">
             <Locations>
                <Location
-                  uuid = "11C11D7F-FF0B-40D3-989C-D955964C4B8C - 3e4464e2d3c5026f"
+                  uuid = "11C11D7F-FF0B-40D3-989C-D955964C4B8C - 3e4464e2d3c50325"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -93,12 +93,12 @@
                   urlString = "file:///Users/byeonjinha/Desktop/LineageM2Exchange/LineageM2Exchange/MainView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
                   offsetFromSymbolStart = "48">
                </Location>
                <Location
-                  uuid = "11C11D7F-FF0B-40D3-989C-D955964C4B8C - bf1ea94d78440d7c"
+                  uuid = "11C11D7F-FF0B-40D3-989C-D955964C4B8C - bf1ea94d78440c36"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -108,8 +108,8 @@
                   urlString = "file:///Users/byeonjinha/Desktop/LineageM2Exchange/LineageM2Exchange/MainView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
                   offsetFromSymbolStart = "480">
                </Location>
             </Locations>
@@ -118,33 +118,160 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D83DC5EF-894C-4ED4-BD93-7D62CC1B2CEE"
-            shouldBeEnabled = "Yes"
+            uuid = "17BB1EB2-E8C8-400C-A9D5-EA6F43AC070A"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LineageM2Exchange/MainView.swift"
+            filePath = "LineageM2Exchange/LineageM2ExchangeApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "body"
-            landmarkType = "24">
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "LineageM2ExchangeApp"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "17BB1EB2-E8C8-400C-A9D5-EA6F43AC070A - 11af3c173a03f10e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineageM2Exchange.LineageM2ExchangeApp.saveData.getter : SwiftUI.FetchedResults&lt;LineageM2Exchange.ServersEntity&gt;"
+                  moduleName = "LineageM2Exchange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/byeonjinha/Desktop/LineageM2Exchange/LineageM2Exchange/LineageM2ExchangeApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "17BB1EB2-E8C8-400C-A9D5-EA6F43AC070A - b1f6b3cc0c15c71f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineageM2Exchange.LineageM2ExchangeApp.$saveData.getter : SwiftUI.Binding&lt;SwiftUI.FetchRequest&lt;LineageM2Exchange.ServersEntity&gt;.Configuration&gt;"
+                  moduleName = "LineageM2Exchange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/byeonjinha/Desktop/LineageM2Exchange/LineageM2Exchange/LineageM2ExchangeApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "17BB1EB2-E8C8-400C-A9D5-EA6F43AC070A - 5f1d5cb3c7c30590"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineageM2Exchange.LineageM2ExchangeApp.init() -&gt; LineageM2Exchange.LineageM2ExchangeApp"
+                  moduleName = "LineageM2Exchange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/byeonjinha/Desktop/LineageM2Exchange/LineageM2Exchange/LineageM2ExchangeApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "264">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F53E43EB-A17D-4C04-B706-DC21A903FAC1"
-            shouldBeEnabled = "Yes"
+            uuid = "123DC28A-924B-4474-AA1E-DF2250F9847D"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LineageM2Exchange/MainView.swift"
+            filePath = "LineageM2Exchange/LineageM2ExchangeApp.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "body"
-            landmarkType = "24">
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "LineageM2ExchangeApp"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "123DC28A-924B-4474-AA1E-DF2250F9847D - 5f1d5cb3c7c3025e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineageM2Exchange.LineageM2ExchangeApp.init() -&gt; LineageM2Exchange.LineageM2ExchangeApp"
+                  moduleName = "LineageM2Exchange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/byeonjinha/Desktop/LineageM2Exchange/LineageM2Exchange/LineageM2ExchangeApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "372">
+               </Location>
+               <Location
+                  uuid = "123DC28A-924B-4474-AA1E-DF2250F9847D - f63c8f29f8b4b477"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineageM2Exchange.LineageM2ExchangeApp.init(delegate: SwiftUI.UIApplicationDelegateAdaptor&lt;LineageM2Exchange.AppDelegate&gt;, appData: @autoclosure () -&gt; LineageM2Exchange.AppData, saveData: SwiftUI.FetchRequest&lt;LineageM2Exchange.ServersEntity&gt;) -&gt; LineageM2Exchange.LineageM2ExchangeApp"
+                  moduleName = "LineageM2Exchange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/byeonjinha/Desktop/LineageM2Exchange/LineageM2Exchange/LineageM2ExchangeApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ADCF07DF-50D6-49C8-AE05-6C867DEB4E9C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LineageM2Exchange/LineageM2ExchangeApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "LineageM2ExchangeApp"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "ADCF07DF-50D6-49C8-AE05-6C867DEB4E9C - 5f1d5cb3c7c3025e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineageM2Exchange.LineageM2ExchangeApp.init() -&gt; LineageM2Exchange.LineageM2ExchangeApp"
+                  moduleName = "LineageM2Exchange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/byeonjinha/Desktop/LineageM2Exchange/LineageM2Exchange/LineageM2ExchangeApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "372">
+               </Location>
+               <Location
+                  uuid = "ADCF07DF-50D6-49C8-AE05-6C867DEB4E9C - f63c8f29f8b4b477"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LineageM2Exchange.LineageM2ExchangeApp.init(delegate: SwiftUI.UIApplicationDelegateAdaptor&lt;LineageM2Exchange.AppDelegate&gt;, appData: @autoclosure () -&gt; LineageM2Exchange.AppData, saveData: SwiftUI.FetchRequest&lt;LineageM2Exchange.ServersEntity&gt;) -&gt; LineageM2Exchange.LineageM2ExchangeApp"
+                  moduleName = "LineageM2Exchange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/byeonjinha/Desktop/LineageM2Exchange/LineageM2Exchange/LineageM2ExchangeApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

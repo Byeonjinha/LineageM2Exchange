@@ -11,22 +11,19 @@ import SwiftUI
 struct
 GADBannerViewController: UIViewControllerRepresentable {
     func makeUIViewController(context: Context) -> UIViewController {
-    let view = GADBannerView(adSize: GADAdSizeBanner)
-    let viewController = UIViewController()
-    view.adUnitID = "ca-app-pub-3363690747307113/4382956386"
-    view.rootViewController = viewController
-    viewController.view.addSubview(view)
-    viewController.view.frame = CGRect(origin: .zero, size: GADAdSizeBanner.size)
-    view.load(GADRequest())
-    return viewController
+        let view = GADBannerView(adSize: GADAdSizeBanner)
+        let viewController = UIViewController()
+        view.adUnitID = Bundle.main.infoDictionary?["AdAuth"] as? String
+        view.rootViewController = viewController
+        viewController.view.addSubview(view)
+        viewController.view.frame = CGRect(origin: .zero, size: GADAdSizeBanner.size)
+        view.load(GADRequest())
+        return viewController
     }
- 
     
-    
-    
-func updateUIViewController(
-_ uiViewController: UIViewController,
-context: Context) {
-    
-    }
+    func updateUIViewController(
+        _ uiViewController: UIViewController,
+        context: Context) {
+            
+        }
 }

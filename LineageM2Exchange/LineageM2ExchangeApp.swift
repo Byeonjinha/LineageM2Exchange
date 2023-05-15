@@ -12,9 +12,11 @@ import SwiftUI
 
 @main
 struct LineageM2ExchangeApp: App {
-    
+    @UIApplicationDelegateAdaptor var delegate: AppDelegate 
     @StateObject private var searchServers = SearchServerAPI.shared
     @StateObject var appData =  AppData()
+    @FetchRequest(entity: ServersEntity.entity() , sortDescriptors: []) var saveData: FetchedResults<ServersEntity>
+    
     let persistenceController = PersistenceController.shared
     
     var body: some Scene {

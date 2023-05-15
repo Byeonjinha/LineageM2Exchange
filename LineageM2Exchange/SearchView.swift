@@ -10,6 +10,7 @@ import SwiftUI
 struct SearchView: View {
     @Environment(\.managedObjectContext) private var viewContext
     @FetchRequest(entity: ServersEntity.entity() , sortDescriptors: []) var saveData: FetchedResults<ServersEntity>
+    
     @StateObject private var searchItemByCondition = SearchItemAPI.shared
     @StateObject private var searchServers = SearchServerAPI.shared
     @Binding var searchItemName: String
@@ -43,7 +44,7 @@ struct SearchView: View {
                 HStack {
                     if !searchServers.serverNames.isEmpty {
                         Picker("", selection: $selectionOption) {
-                            ForEach(0 ..< searchServers.serverNames.count , id: \.self) {
+                            ForEach(searchServers.serverNames.indices , id: \.self) {
                                 Text(searchServers.serverNames[$0].0)
                                     .font(Font.custom("PoorStory-Regular", size: 15, relativeTo: .title))
                                     .foregroundColor(.gray)
@@ -87,7 +88,6 @@ struct SearchView: View {
                                     .font(Font.custom("PoorStory-Regular", size: 15, relativeTo: .title))
                                     .foregroundColor(.gray)
                                 Button(action:{
-                                    print(selectionOption)
                                     searchItemByCondition.posts = []
                                     searchItemByCondition.getMyIP(searchKeyword: searchItemName, serverID: String(searchServers.serverNames[selectionOption].1))
                                 })
@@ -97,7 +97,6 @@ struct SearchView: View {
                                         .frame(width: 15, height: 15)
                                         .padding()
                                 }
-                                
                             }
                         )
                 }
